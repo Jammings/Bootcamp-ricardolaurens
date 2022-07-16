@@ -9,3 +9,5 @@ for (let index = 0; index < countries.length; index++) {
 }
 
 document.body.appendChild(ul$$);
+
+/* test */
