@@ -1,0 +1,19 @@
+.div__logos {
+                display: flex;
+                justify-content:space-around;
+                font-style: Roboto;
+                color: #f6efe8;
+                height: 100%;
+                width: 100%;
+}
+
+.img__logo{
+display:flex;
+justify-content: start;
+}
+
+.img__menu{
+    display:flex;
+    justify-content: end;
+    padding-top: 1%;
+    }

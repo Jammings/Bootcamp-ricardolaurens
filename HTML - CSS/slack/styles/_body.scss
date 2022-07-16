@@ -1,0 +1,69 @@
+body {
+    background-color: #f6efe8;
+}
+
+@font-face {
+    font-family: mplus-med;
+    src: url("../styles/fonts/MPLUS1p-Medium.ttf");
+    font-family: mplus-bold;
+    src: url("../styles/fonts/MPLUS1p-Bold.ttf");
+    font-family: mplus-reg;
+    src: url("../styles/fonts/MPLUS1p-Regular.ttf");
+    
+}
+
+
+h1{
+font-family: Helvetica Neue, Helvetica, Segoe UI ,Tahoma,Arial,sans-serif;
+font-size: 4vh;
+}
+
+h2{
+    font-family: Helvetica Neue, Helvetica, Segoe UI ,Tahoma,Arial,sans-serif;
+    font-size: 2.5vh;
+    }
+
+p{
+font-family: Segoe UI ,Tahoma,Arial,sans-serif;
+font-size:medium;
+font-weight: 500;
+margin-bottom: 5%;
+}
+
+span{
+    font-family: Helvetica Neue, Helvetica, Segoe UI ,Tahoma,Arial,sans-serif;
+    font-size: medium;   
+}
+
+div span
+{
+background-color: #4a154b;
+width: 100px;
+padding: 15px 60px;
+font-size:medium;
+color: #ffffff;
+border-radius: 5px;
+font-family: mplus-bold;
+margin-top: 10px;
+}
+
+.second__section {
+    padding-top: 20vh;
+    margin: -5px;
+}
+.second__section__div
+{
+background-color: #ffffff;
+padding-top: 20px;
+margin: 0px;
+padding-bottom: 10px;
+color: black;
+width: 55vh;
+height: 115vh;
+}
+
+a {
+    font-family: Segoe UI ,Tahoma,Arial,sans-serif;
+    font-size:medium;
+    font-weight: 500;
+    }

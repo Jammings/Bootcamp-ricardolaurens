@@ -1,0 +1,118 @@
+.img__campaign {
+    margin-top: 5vh;
+}
+
+.img__customer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    img { height: 40px;
+          width: 70px;
+
+
+    }
+
+
+
+}
+.img__customer__logos
+{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    padding: 50px 35px 0px 20px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+
+}
+
+.img__fox
+{
+    display: flex;
+    height: 3vh;
+    width: 7vh;
+    margin-top: 20px;
+
+
+}
+
+.img__lonely
+{
+    display: flex;
+    height: 7vh;
+    width: 16vh;
+
+}
+
+.img__intuit
+{
+    display: flex;
+    height: 3vh;
+    width: 10vh;
+    margin-top: 12px;
+    margin-left: 8vh;
+}
+
+.img__carvana
+{
+    display: flex;
+    height: 8vh;
+    width: 25vh;
+    padding-top: 100px;
+
+}
+
+.img__kiva
+{
+    display: flex;
+    height: 8vh;
+    width: 12vh;
+    margin-right: 30vh;
+    margin-bottom: 30vh;
+}
+
+.img__target
+{
+    display: flex;
+    height: 7vh;
+    width: 7vh;
+    margin-right: 30vh;
+    margin-bottom: 30vh;
+}
+
+.img__devacurl
+{
+    display: flex;
+    height: 7vh;
+    width: 20vh;
+    margin-right: 30vh;
+    margin-bottom: 30vh;
+}
+
+.div__frame {
+    display:flex;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    }
+
+.div__iframe__canal
+{
+    margin-top: 10px;
+    width: 100vh;
+    height: 100vh;
+    color: #ffffff;
+    }
+
+.p__img {
+    display: flex;
+    color: black;
+    width: 60%;
+}
+
+.p__img1 {
+    display: flex;
+    color: black;
+    width: 30%;
+}

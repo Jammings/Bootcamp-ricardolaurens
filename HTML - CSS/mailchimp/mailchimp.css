@@ -1,0 +1,75 @@
+.logo1 { 
+margin-top: 10px;
+float: left;
+    width: 7%; 
+}
+
+.container {
+height: 50%;
+width: 510px;
+display: inline-block;
+}
+
+
+
+.title {
+    padding-left: 30%
+}
+
+.formularios {
+border: 0 #f8f9fa;
+padding-left: 15%
+
+}
+.email{
+    display: block;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    font-size: 14px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+.username{
+    display: block;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    font-size: 14px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+.password{
+    display: block;
+    width: 400px;
+    height: 30px;
+    font-size: 14px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+        
+        
+}
+.pass-def{
+    display: inline-block;
+    float: right;
+}
+.pass-def1{
+    display: inline-block;
+    float: left;
+}
+
+.buttom{
+    background-color: #f7f7f7;
+    border-color: #bdbbbb;
+    padding: 10px 20px;
+}
+.text{
+    padding-left: 80px;
+    width: 500px;
+}

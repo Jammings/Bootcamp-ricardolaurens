@@ -1,0 +1,99 @@
+.g-galeria{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.foto-g{
+    display: flex;
+    width: 25%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px;
+    flex-direction: column;
+
+}
+
+.precio {
+justify-content: center;
+
+}
+
+div img {
+    width: 100%;
+}
+
+span {
+    margin-top: 20px;
+}
+h4 {
+    margin-top: 10px;
+}
+
+.titulo{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.menu {
+    position:fixed;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+ul {
+    list-style:none
+}
+
+.promo{
+    color:brown
+}
+
+header{
+display: flex;
+justify-content: space-between;
+}
+
+.foot {
+display: flex;
+justify-content: center;
+font-family: "Roboto";
+font-size: 25px;
+right: 20px;
+}
+
+.h22 {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 30px;
+    right: 20px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+}
+
+
+.email{
+    display: flex;
+    justify-content:center;
+    border: solid rgb(206, 206, 206);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;  
+    width:900px;
+    margin: auto;
+}
+
+.foot-img{
+display: flex;
+justify-content: center;
+width: 25%;
+height: 25%;
+margin: auto;
+}
