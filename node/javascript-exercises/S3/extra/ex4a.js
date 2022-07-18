@@ -10,7 +10,7 @@ const countries = [
 for (let index = 0; index < countries.length; index++) {
     const div$$ = document.createElement('div');
     const country = countries[index];
-    div$$.innerHTML = '<h4>${country.title}</h4><img src="${country.imgUrl}"/>';
+    div$$.innerHTML = `<h4>${country.title}</h4><img src="${country.imgUrl}"/>`;
 
     document.body.appendChild(div$$);
 }

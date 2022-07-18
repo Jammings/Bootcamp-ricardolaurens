@@ -1,7 +1,6 @@
-const confirmValue = confirm('Soy un texto');
-const prompt = prompt('Soy un texto');
-
 const userAnwsers = [];
+const confirmValue = confirm('Soy un texto');
+const promptValue = prompt('Soy un texto');
 
 function confirmExample(description){
     return confirm(description)
@@ -13,9 +12,12 @@ function promptExample(description){
 
 function father(description, callback){
     userAnwsers.push(callback(description));
+
 }
 
-father('Hey!', confirmExample);
-father('Promppp!', promptExample);
+father('hola', confirmExample);
+father('hola', promptExample);
 
-console.log(userAnwsers);
+
+console.log(userAnwsers)
+
