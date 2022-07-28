@@ -3,7 +3,8 @@ const baseUrl = 'https://api.nationalize.io';
 const search = () => {
     const input$$ = document.querySelector('input');
 
-    fetch(baseUrl + '?name=' + input$$.value).then(res => res.json()).then(person =>{
+    fetch(baseUrl + '?name=' + input$$.value).then(res => res.json())
+    .then(person =>{
         createNationalizeP(person)
     })
 }

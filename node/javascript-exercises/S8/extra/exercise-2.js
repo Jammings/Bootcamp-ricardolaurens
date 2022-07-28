@@ -1,5 +1,7 @@
 
-fetch('http://localhost:3000/diary').then(res => res.json()).then(diary => {
+fetch('http://localhost:3000/diary')
+.then(res => res.json())
+.then(diary => {
     const sortedDiary = orderDiaryNotes(diary);
     createDiaryNotes(sortedDiary)
     // createDiaryNotes(orderDiaryNotes(diary))

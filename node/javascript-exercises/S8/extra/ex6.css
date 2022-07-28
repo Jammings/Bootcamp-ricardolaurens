@@ -1,0 +1,79 @@
+.b-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px
+}
+
+.sprites{
+
+    margin: 50px 50px;
+    padding-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(222, 223, 230, 0.767);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10%;
+}
+
+img{
+    height: 380px;
+    max-width: 100%;
+}
+
+
+.name{
+    font-family: arial ,sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: #2656db62;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    margin: 0;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.b-btn{
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #ffffff;
+    color: #0a0a0ae6;
+    padding: 16px;
+    font-size: 48px;
+    cursor: pointer;
+    border-width: 0;
+}
+
+
+body {
+    display: flex;
+/*     background-repeat: no-repeat; */
+    background-position: center;
+    flex-direction: column;
+/*     background-size: cover; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.create-characters {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+

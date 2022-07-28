@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ex6.js" defer></script>
+    <link rel="stylesheet" href="ex6.css">
+</head>
+<body>
+    <div class="c-characters" data-function="characters"></div>
+    <div data-function="arena"></div>
+    <div class="create-characters">
+    <p>Name: <input type="text" name="attack" size="7"></p>
+    <p>Avatar: <input type="text" name="nombre" size="7"></p>
+    <p>Critic: <input type="number" name="critic" size="7"></p>
+    <p>Defense: <input type="number" name="defense" size="7"></p>
+    <p>Vitality: <input type="number" name="vitality" size="7"></p>
+    <p>Damage <input type="text" name="attack" size="7"></p>
+    </div>
+    <form action="http://localhost:3000/characters" method="post">
+        <input type="submit" value="Enviar">
+</body>
+</html>

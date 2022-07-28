@@ -5,7 +5,9 @@ const baseUrl = 'http://localhost:3000/';
 
 createApp();
 function createApp() {
-    fetch(baseUrl + "planets").then(res => res.json()).then(planets => {
+    fetch(baseUrl + "planets")
+    .then(res => res.json())
+    .then(planets => {
         for (const planet of planets) {
             const planet$$ = document.createElement('div');
             

@@ -2,19 +2,26 @@ const baseUrl = 'https://api.nationalize.io';
 
 const input$$ =document.querySelector('input')
 const button$$ =document.querySelector('button')
-button$$.addEventListener("click", search)
+
 
 function search(){
-    fetch(`https://api.nationalize.io=${input$$.value}`)
+    
+    
+    fetch(`https://api.nationalize.io?name=${input$$.value}`)
 .then((res) => res.json())
-.then((data) => {
+.then(data => {
 crearTexto(data)
 });
 
 }
 
-function crearTexto(datos){
-    const p$ = document.createElement('p');
-    p$.textContent = `El nombre ${datos.name} tiene un ${datos.country}`
-    document.body.appendChild(p$);
+const crearTexto = (data) => {
+    for (const country of data.country) {
+        let p$ = document.createElement('p');
+        const porciento = Math.floor(country.probability * 100)
+        p$.textContent = `El nombre ${data.name} un ${porciento} porciento de ser de ${country.country_id}`;
+        document.body.appendChild(p$);
+
 }
+}
+button$$.addEventListener("click", search)

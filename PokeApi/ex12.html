@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ex12.js" defer></script>
+    <link rel="stylesheet" href="ex12.css">
+    <link rel="icon" href="./image/masterball.png">
+    <title>poke</title>
+
+</head>
+<body>
+
+    <input onclick="shinys()" type="checkbox" id="toggle">
+    <label for="toggle" class="change-shiny"></label>
+    <div id="atrapalosTodos">
+        
+      </div>
+
+    <script>
+        function shinys() {
+           let element = document.getElementById("atrapalosTodos");
+           element.classList.toggle("atrapalosYa");
+        }
+
+        </script>
+
+</body>
+</html>

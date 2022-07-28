@@ -1,0 +1,40 @@
+Ejercicio 4 
+db.clientes.find()
+
+Ejercicio 5
+db.clientes.find({nombre: 'Pepe'})
+
+Ejercicio 6 (no tenia ninguna con 20 de edad)
+db.clientes.find({nombre: 'Maria', edad: 25})
+
+Ejercicio 7
+ db.clientes.find({nombre: 'Maria'},{apellido:1, nombre:1})
+
+Ejercicio 8
+db.clientes.count()
+
+Ejercicio 9
+db.clientes.count({nombre: 'Pepe'})
+
+Ejercicio 10
+db.clientes.find({email: 'pp@soypepe.com'},{apellido:1}) 
+({email: 'pp@soypepe.com'},{apellido:1, _id:0})
+Ejercicio 7
+db.clientes.find({nombre: 'Maria'},{apellido:true, nombre:1, _id:0})  
+son valores boleanos 0 = false 1= true
+
+$eq =
+$gt >
+$lt <
+$ne distinto
+$gte =>
+$lte <=
+
+
+db.productos.find({nombre:/i/},{_id:0})
+para incluir todos los que tengan la letra i, va con //
+db.productos.find({nombre:/^o/i},{_id:0})
+en esta busca todos los que tengan o miniscula o mayuscula
+
+
+

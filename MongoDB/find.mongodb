@@ -1,0 +1,7 @@
+
+use('cinema')
+/* db.movies.find({})
+
+ */
+
+db.movies.find()
