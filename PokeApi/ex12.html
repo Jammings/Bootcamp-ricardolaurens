@@ -6,7 +6,7 @@
     <script src="ex12.js" defer></script>
     <link rel="stylesheet" href="ex12.css">
     <link rel="icon" href="./image/masterball.png">
-    <title>poke</title>
+    <title>PokeApi</title>
 
 </head>
 <body>
@@ -22,8 +22,15 @@
            let element = document.getElementById("atrapalosTodos");
            element.classList.toggle("atrapalosYa");
         }
-
         </script>
-
+        <div id="myDIV" class="header">
+          <h2>To do List</h2>
+          <input type="text" id="myInput" placeholder="Tarea...">
+          <span onclick="newElement()" class="addBtn">Agregar</span>
+        </div>
+        
+        <ul id="myUL">
+        </ul>
+  </div>
 </body>
 </html>
