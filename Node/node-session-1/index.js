@@ -3,8 +3,9 @@
 1.  npm init -y
 2. npm install express
 3. crear archivo index.js 
+4. npm i -D nodemon para instalar nodemon
+5. npm run dev para ejecutar el nuevo script "dev"
 */
-
 
 const { request } = require('express');
 const express = require('express');
@@ -41,9 +42,8 @@ if (finded) {
     return res.send(`No tenemos la pelicula que buscas. ${pelicula} no esta en nuestra coleccion.`);
 }
 });
-// npm i -D nodemon para instalar nodemon
-//npm run dev para ejecutar el nuevo script "dev"
-// Le decimos a express que use nuestro router
+
+//Le decimos a express que use nuestro router
 app.use('/', router)
 
 // Creamos nuestro servidor
